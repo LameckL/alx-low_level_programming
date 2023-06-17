@@ -1,11 +1,11 @@
-#include<stdio.h>
-#include<time.h>
-#include<stdlib.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
-* main - Prints if number is positive, zero or negative
+* main - Entry point
 *
-* Return: Always (Success)
-* /
+* Return: Always 0 (Sucess)
+*/
 int main(void)
 {
 	int n;
