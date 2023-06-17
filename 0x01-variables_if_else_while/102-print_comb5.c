@@ -6,23 +6,23 @@
 */
 int main(void)
 {
-	int tho;
-	int hun;
+	int ras;
+	int vac;
 	int ten;
 	int bas;
 
-for ( tho = 0 ; tho < 10 ; tho++)
+for (ras = 0 ; ras < 10 ; ras++)
 {	
 
-	for (hun = 0 ; hun <= 10 ; hun++)
+	for (vac = 0 ; vac <= 10 ; vac++)
 	{
 	
 		for (ten = 0 ; ten < 10 ; ten++)
 		{
-			for ( bas = 0 ; bas < 10 ; bas++)
+			for (bas = 0 ; bas < 10 ; bas++)
 			{
-				putchar('0' + tho);
-				putchar('0' + hun);
+				putchar('0' + ras);
+				putchar('0' + vac);
 				putchar(32);
 				putchar('0' + ten);
 				putchar('0' + bas);
