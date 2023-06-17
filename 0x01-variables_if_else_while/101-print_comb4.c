@@ -16,9 +16,9 @@ int main(void)
 		{
 			i = n + 1;
 			do {
-				putchar('0' + i);
 				putchar('0' + h);
 				putchar('0' + n);
+				putchar('0' + i);
 				if (h != 7)
 				{
 					putchar(',');
