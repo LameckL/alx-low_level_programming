@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /*
  * main  -  entry point
  * print_alphabet() - function using a for loop to prints letters of alphabet
@@ -6,11 +6,15 @@
  */
 void print_alphabet(void)
 {
-	char c;
-
-	for (c = 'a' ; c <= 'z' ; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
+	char alphabets;
+		for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+		{
+			_putchar(alphabets);
+		}
+		_putchar("\n");
+}
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
