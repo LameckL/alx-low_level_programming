@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_thousand - prins a digit i thousand 
+ * print_thousand - prints digit in thausand
  * @sum: Value to scan for thousand spot
  *
  * Return: Void
@@ -34,8 +34,6 @@ static void print_hundred(int sum)
 		_putchar('0' + (sum / 100));
 	}
 }
-
-
 /**
  * print_tenth - print out the digit in the tenth spot
  * @sum: Value to scan for tenth spot
@@ -60,8 +58,6 @@ static void print_tenth(int sum)
 		}
 	}
 }
-
-
 /**
  * print_base10 - print out the digit in the base10 spot
  * @sum: Value to scan for base10 spot
@@ -79,7 +75,6 @@ static void print_base10(int sum)
 		_putchar('0' + (sum % 10));
 	}
 }
-
 /**
  * print_times_table - print out the 9 times table
  * @n: Valuse use to generate times tables.
