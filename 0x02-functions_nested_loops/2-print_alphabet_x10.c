@@ -1,9 +1,7 @@
 #include "main.h"
 /**
- * main - outputs first 50 Fibonacci numbers, starting with 1 and 2,
- *        separated by a comma followed by a space.
+ * print_alphabet_x10 - write the the lower-case alphabet on a line.
  *
- * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
@@ -19,4 +17,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
-
