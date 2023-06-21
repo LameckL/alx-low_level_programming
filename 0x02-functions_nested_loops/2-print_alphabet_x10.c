@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * main - outputs first 50 Fibonacci numbers, starting with 1 and 2,
+ *        separated by a comma followed by a space.
+ *
+ * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
