@@ -1,8 +1,10 @@
-#include<stdio.h>
+#include "main.h"
+#include <stdio.h>
+
 /**
- * main - check the code
+ * print_to_98 - count the numbers from n to 98.
+ * @n: value to count from.
  *
- * Return: Always 0.
  */
 void print_to_98(int n)
 {
