@@ -1,8 +1,7 @@
 #include "main.h"
 /*
- * main  -  entry point
- * print_alphabet() - function using a for loop to prints letters of alphabet
- * return:usually 0
+ * print_alphabet - Function that prints the lowercase alphabet from 'a' to 'z'
+ *
  */
 void print_alphabet(void)
 {
