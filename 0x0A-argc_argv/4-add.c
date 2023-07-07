@@ -29,6 +29,7 @@ int check_num(char *str)
  * main - function tha print the name of the program
  * @argc: Count arguments
  * @argv: arguments
+ * Return: 0 success
  */
 
 int main(int argc, char *argv[])
