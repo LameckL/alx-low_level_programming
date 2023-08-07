@@ -88,10 +88,8 @@ int main(int argc, char *argv[])
 		file_to = open(argv[2], O_WRONLY | O_APPEND);
 
 	} while (r > 0);
-
 	free(buf);
 	close_descr(file_from);
 	close_descr(file_to);
-
 	return (0);
 }
