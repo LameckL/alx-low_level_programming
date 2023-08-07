@@ -10,6 +10,7 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd, n, lenn;
+
 	lenn = 0;
 
 	if (filename == NULL)
