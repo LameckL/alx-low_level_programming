@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-char *create_buf(char *file);
-void close_file(int fd);
-
 /**
  * create_buf - a func allocating bytes for a buffer
  * @file: name of the file whose chars are stored by the buffer
@@ -48,7 +45,6 @@ void close_descr(int fd)
  * @argc: number of arguments fed to the program
  * @argv: an array of pointers to the arguments
  * Return: 0 - success
- *
  * Description: incorrect argument count - exit code 97.
  * file_from does not exist or cannot be read - exit code 98.
  * file_to cannot be created or written to - exit code 99.
@@ -94,8 +90,8 @@ int main(int argc, char *argv[])
 	} while (r > 0);
 
 	free(buf);
-	close_file(file_from);
-	close_file(file_to);
+	close_descr(file_from);
+	close_descr(file_to);
 
 	return (0);
 }
