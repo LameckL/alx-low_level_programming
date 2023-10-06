@@ -3,9 +3,7 @@
 /**
  * hash_table_create - func creating a hash table
  * @size: array size
- *
- * Return: the pointer to the new has table, else
- *         NULL - error
+ * Return: the pointer to the new has table, else NULL - error
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
@@ -13,7 +11,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	unsigned long int i;
 
 	hasht = malloc(sizeof(hash_table_t));
-	if (ht == NULL)
+	if (hasht == NULL)
 		return (NULL);
 
 	hasht->size = size;
