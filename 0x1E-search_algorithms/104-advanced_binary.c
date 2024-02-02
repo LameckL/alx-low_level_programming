@@ -1,8 +1,8 @@
 #include "search_algos.h"
 
 /**
-  * advanced_binary_recursive - func searching recursively for a value in a sorted
-  *                             array of integers using binary search
+  * advanced_binary_recursive - func searching recursively for a value in a
+  *                           sorted array of integers using binary search
   * @array: pointer to the first element of the [sub]array to search
   * @left: starting index of the [sub]array to search
   * @right: ending index of the [sub]array to search
